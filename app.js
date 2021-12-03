@@ -13,7 +13,7 @@ window.addEventListener('load', ()=>{
             lat=position.coords.latitude;
             
             // const proxy="http://cors-anywhere.herokuapp.com/corsdemo";
-            const api=`https://api.weatherapi.com/v1/current.json?key=84154940c093448284264657211111&q=${lat},${long}`;
+            const api=`http://api.weatherapi.com/v1/current.json?key=84154940c093448284264657211111&q=${lat},${long}`;
 
             
 
